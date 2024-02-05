@@ -1,0 +1,1 @@
+for %%f in (Shiphulls_*.xml) do < "%%f" findRepl "(<DisplaySize>)(.*)(</DisplaySize>)" /$:2 >> alleSchiffsgroessen.txt
